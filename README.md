@@ -167,37 +167,19 @@ The system generates JSON files following this structure:
 
 ```json
 {
-  "document": "sample_document",
-  "total_pages": 50,
-  "processing_time": 8.45,
-  "content": [
-    {
-      "text": "Introduction",
-      "type": "h1",
-      "confidence": 0.95,
-      "font_size": 24.0,
-      "bbox": [100.5, 150.2, 300.8, 180.4],
-      "page": 1
-    },
-    {
-      "text": "Background and Methodology",
-      "type": "h2", 
-      "confidence": 0.89,
-      "font_size": 18.5,
-      "bbox": [100.5, 200.1, 450.2, 225.3],
-      "page": 1
-    }
-  ],
-  "metadata": {
-    "ocr_engines": ["tesseract", "easyocr"],
-    "total_elements": 245,
-    "headings": {
-      "h1": 5,
-      "h2": 12,
-      "h3": 28,
-      "paragraphs": 200
-    }
-  }
+    "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+    "outline": [
+        {
+            "level": "H2",
+            "text": "Cash",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "System",
+            "page": 1
+        }
+    ]
 }
 ```
 
