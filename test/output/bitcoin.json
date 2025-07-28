@@ -1,0 +1,1750 @@
+{
+    "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+    "outline": [
+        {
+            "level": "H2",
+            "text": "Cash",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "System",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "Bitcoin:",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "Peer-to-Peer",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "Electronic",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "Satoshi Nakamoto",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "wwwbitcoinorg",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "Digital signalures provide part of the solution; bul the main",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "trusled third parly 1s still required t0 prevent double-spending:",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "record that cannot be changed without redoing",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "prool' of the sequence of",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "The longest chain nol only serves",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "evenls witnessed, bul prool thal",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "came [rom the largest",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "of CPU power:",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "controlled by nodes thal are not cooperaling lo",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "majority o CPU power",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "the longest chain and oulpace allackers_",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "itself",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "requires",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "network isell requires minimal structure_",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "Messages are: broadeast on",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "Introduction",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "serving",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "parties to process electronic payments_",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "works well enough for",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "still",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "suffers",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "Completely non-reversible transactions are not really possible",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "since financial institutions cannot",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "mediating",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "minimum practical transaction size and",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "off the possibility for small casual transactions_",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "broader cost in the loss of ability to",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "and there is",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "make non-reversible payments for non-",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "Merchants must",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "With the possibility of reversal, the need for trust spreads_",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "be wary of their customers_",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "certain percentage of fraud is accepted as unavoidable_",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "These costs and payment uncertainties",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "proof",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "cryptographic proof instead of trust;",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "What is needed is an electronic payment system based on",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "trusted",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "third party:",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "Transactions that are computationally impractical to reverse would protect sellers",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "and routine escrow mechanisms could easily be implemented",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "double-spending problem",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "using",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "peer-to-peer distributed",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "this paper; we propose",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "The",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "long",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "system",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "more CPU power",
+            "page": 0
+        },
+        {
+            "level": "H1",
+            "text": "cooperating group of attacker nodes_",
+            "page": 0
+        },
+        {
+            "level": "H2",
+            "text": "We define an electronic coin as",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "Each owner transfers the coin t0 the",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "digitally signing",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "next by",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "payee can verify the signatures t0 verify the chain of",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Transaction",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Transaction",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Hash",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Yeni,",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Verrly",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "common solution is t0 introduce",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "trusted central authority. Or mint; that checks every",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "be double-spent:",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "The   problem with this  solution is",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "the fate of' the entire money  system depends on",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "bank",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "For our purposes, the earliest transaction is the one that counts",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "The only way to confirm the absence of",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "publicly announced [1]. and we need",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "singl",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "system for participants tO agree on",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "they",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "The payee needs proof that at the time of each transaction_",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "majority of nodes agreed",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "was the first received_",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Timestamp Server",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "The solution we propose begins with",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "timestamp server:",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "A timestamp server works by",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "newspaper or Usenet post [2-5]:",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "The timestamp proves that the data must have existed at the",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "order to get into the hash_",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Each timestamp includes the previous timestamp in",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "chain, with each additional timestamp reinforcing the ones before",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Proof-of-Work",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "proof-",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "To implement",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "distributed timestamp server 0n",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "we will need to use",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "peer",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "of-work system similar to",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "Back's Hashcash [6]. rather than newspaper or Usenet posts_",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "The proof-of-work involves scanning for",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "The average work required is exponential in the number",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "of zero bits required and can be verified by executing",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "single hash_",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "proof-of-work by incrementing",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "the required zero bits:",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "Once the CPU",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "value is found that gives the block's hash",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "the block cannot be changed",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "without redoing the",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "redoing",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "'determining representation in majority decision",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "The proof-of-work also solves the problem of",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "could be subverted by anyone",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "able",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "Proof-of-work",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "majority of CPU power is controlled by honest nodes_",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "the honest chain will grow the",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "To modify",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "past block",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "fastest and outpace any",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "slower attacker catching up",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "work of the honest nodes_",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "We will show later that the probability of",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "diminishes exponentially as subsequent blocks are added",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "increasing hardware speed and",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "varying",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "To compensate for",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "the proof-of-work difticulty is determined by",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "moving average targeting an average number of",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "blocks per hour: If they're generated too fast; the difficulty increases",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "The steps t0 run the network are as follows:",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "New transactions are broadcast to all nodes:",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "block",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "Each node collects new transactions into",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "finding",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "proof-of-work , it broadcasts the block to all nodes",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "correct one and will keep working on",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "Nodes always",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "may receive one Or the other first:",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "work on the first one",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "received",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "but save the other branch in case it becomes longer:",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "The tie will be broken when the next proof-",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "working o the other",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "of-work is found and one branch becomes longer;",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "the nodes that were",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "branch will then switch to the longer one",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "New transaction broadcasts do not necessarily need to reach all nodes",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "As long as they reach",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "they",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "will",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "block before",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "Block broadcasts are also tolerant of dropped",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "block; it will request it when",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "Incentive",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "block is",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "By convention, the first transaction in",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "special transaction that starts",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "new coin owned",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "by the creator of the block:",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "analogous to gold miners expending",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "The steady addition of",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "expended",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "add",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "In OUr case. it is CPU time and electricity that is",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "The incentive can also be funded with transaction fees",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "If the output value of",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "less than its input value; the diflerence is",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "containing the transaction:",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "greedy attacker is able",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "The  incentive may help encourage",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "assemble more CPU power than all the honest nodes_",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "he would have to choose between using",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "to defraud people by stealing back his payments",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "using it tO generate new coins",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "find it more profitable to play by the rules",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "such rules that favour him with more new coins than",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "everyone else combined",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "Reclaiming Disk Space",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "Space",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "coin is buried under enough blocks_",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "the spent transactions before",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "To facilitate this without breaking",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "save disk space",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "Old blocks can then be compacted by",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "Block",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "suppose blocks",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "block header with no transactions would be about 80 bytes:",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "generated every [0 minutes; 80 bytes",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "4.2MB per",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "typically selling with 2GB of RAM as of 2008_",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "and Moore'$ Law predicting current growth of",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "problem",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "LZGB per year; storage should",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "headers must be kept in",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "Simplified Payment Verification",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Simplified",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Payment",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "It is possible to verify payments without running",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "user only needs to keep",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "he has the longest chain,",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "linking",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "transaction for",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "He cant check the",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "himself; but by linking",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "network node has accepted it,",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "place",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "long",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "as honest nodes control the network; but is more",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "fooled by",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "long",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "as the attacker can continue t0 overpower the network",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "protect against this would be to accept alerts",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "network nodes when they detect an invalid",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "block",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "prompting",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "the   full block and alerted",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Businesses that receive frequent payments will probably still want to",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "run their own nodes for more independent security and quicker verification:",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Combining and Splitting Value",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Combining",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Splitting",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "be possible to handle",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Although it would",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "be unwieldy to",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "To allow",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "separate transaction for",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "to be split and combined",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Normally there",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "single input",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "larger previous transaction or multiple inputs combining smaller amounts,",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "It should be noted that fan-out, where",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "transaction depends on several transactions_",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "problem here_",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "There is never the need to extract",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "transaction's history",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "complete standalone copy of",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Privacy",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "limiting access to information to the",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "The traditional banking model achieves",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "level of privacy",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "parties involved and the trusted third party-",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "The necessity to announce all transactions publicly",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "breaking the flow of information in",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "but privacy can still be maintained by",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "another place: by keeping public keys anonymous_",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "The public can see that someone is sending",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "exchanges",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "released by",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "is made public, but without",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "who the parties were",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "individual trades. the \"tape\"",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "key",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "pair",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "kecp",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Some linking is still",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "from being linked",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "The risk",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "belonged",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "is that if the owner of",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "key is revealed",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Calculations",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "it does not throw the system open to arbitrary changes, such",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "taking",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "creating",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "money that never belonged t0 the attacker",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "containing them",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "money he recently spent:",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "The probability of an attacker catching up",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "given deficit is analogous to",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Ruin problem   Suppose",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "gambler with unlimited credit starts at",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "infinite number of trials to try to reach breakeven:",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "as follows [8]:",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "probability an honest node finds the next block",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "probability the attacker finds the next block",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "probability the attacker will ever catch up from",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "“\\iglp)",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "if p>4_",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "drops",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "exponentially as the number of blocks the",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "attacker has to catch up with increases_",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "With the odds against him;",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "if he doesn t make",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "We assume the sender is an attacker",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "paid",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "him for",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "who wants t0 make the recipient believe he",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "while; then switch it to pay back to",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "himself after some time has passed:",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "new key pair and gives the public",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "The receiver generates",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "to the sender shortly before",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "This prevents the sender from preparing",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "chain of blocks ahead of time by working on",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "signing",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "executing the transaction at",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "working",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "parallel chain containing an alternate version of his transaction_",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "block and",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "The recipient waits until the transaction has been added to",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "blocks have been",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "linked after it",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "exact amount of' progress the attacker has made_",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "assuming",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "block",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "the honest blocks took the average",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "progress will be",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Poisson distribution with expected value:",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "A=3",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Fret",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "if k> =",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Rearranging to avoid summing the infinite tail of the distribution",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "1-244",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "off",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "P=0 .0131722",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "P=0 .0009137",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "P=0 .0000173",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "P=0 . 0000024",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Solving for P less than 0",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "% _-",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "90 _",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "12_",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "system for electronic transactions without",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "which provides  strong control",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "ownership;",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "To solve this",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "peer-to-peer network using proof-of-work to record",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "public history of transactions",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "change if honest nodes",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "that   quickly becomes computationally  impractical",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "Nodes",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "majority of CPU power:",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "The network is robust in its unstructured simplicity",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "They do not need to be identified, since messages are",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "work all at once with little coordination_",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "proof",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Any",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "References",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "timestamping service with minimal",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "Design of",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "In 2Oth Symposium On Information Theory in the Benelux;",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Stornetta, \"Improving the efliciency and reliability of digital time-stamping_",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "Security and Computer Science. pages 329-334,",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "In Proceedings of the 4th ACM Conference",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "Secure names for",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "RC. Merkle; \"Protocols for public key cryptosystems",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "W Feller; \"An introduction",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "probability theory and its applications;\"",
+            "page": 8
+        }
+    ]
+}

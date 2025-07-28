@@ -1,0 +1,17 @@
+# PDF processing
+PyMuPDF==1.23.14
+pdf2image==1.17.0
+
+# OCR libraries
+pytesseract==0.3.10
+easyocr==1.7.0
+paddlepaddle==2.5.2
+paddleocr==2.7.3
+
+# Image processing
+opencv-python-headless==4.8.1.78
+Pillow==10.1.0
+numpy==1.24.4
+
+# Core utilities
+pathlib2==2.3.7
